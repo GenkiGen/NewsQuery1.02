@@ -1,0 +1,69 @@
+/* Universial */
+body {
+    font-family: 'Open Sans', sans-serif
+}
+
+/* Search Section */
+.search-section {
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* Form */
+form {
+    display: block;
+}
+
+#searchBox {
+    font-size: 1.5rem;
+}
+
+#searchButton {
+  font-size: 1.5rem;
+}
+
+#searchBox, #searchButton {
+    background: #46494C;
+    color: white;
+    border-style: solid;
+    border-width: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    transition: 0.2s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#searchBox:focus, #searchButton:focus {
+    outline: none;
+}
+
+#searchButton:hover {
+    background: #C5C3C6;
+    color: black;
+}
+
+/* Loading */
+.loading {
+    display: none;
+    margin: 10px auto;
+}
+
+/* Search result */
+.title {
+    font-weight: bold;
+}
+
+li > a {
+    color: black;
+    transition: 0.2s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+li > a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+li:hover {
+    color: white;
+    background: #46494C;
+}

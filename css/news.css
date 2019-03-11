@@ -1,0 +1,23 @@
+.btn {
+    background: white;
+    border: 1.5px solid black;
+    border-radius: 0px;
+    padding: 5px 15px;
+    transition: 0.25s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    font-size: 1em;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+    border-color: white;
+}
+
+.loading {
+    display: block;
+    margin: 5em auto;
+}
+
+main {
+    display: block;
+}

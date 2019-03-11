@@ -1,0 +1,36 @@
+/* Universal */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Main */
+main {
+    padding: 0px;
+    display: block;
+    position: relative;
+}
+
+/* Vid */
+#backgroundVideo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+/* Credit */
+.credit {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    font-size: 2vw;
+    color: white;
+}
+
+.credit > h1 {
+    font-size: 2.5em;
+}
+
+

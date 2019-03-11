@@ -1,0 +1,86 @@
+/* Global styling */
+.btn {
+    background: white;
+    border: 1.5px solid black;
+    border-radius: 0px;
+    padding: 5px 15px;
+    transition: 0.25s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    font-size: 1em;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+    border-color: white;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    margin: 5px;
+}
+
+/* Navbar */
+.navbar, .navbar-inner {
+  /*background: rgba(0,0,0,0.4);*/
+}
+
+/* Banner */
+.banner {
+  font-size: 1.5rem;
+  background-image: url("../images/banne-overlay.jpg");
+  background-size: cover;
+  height: 900px;
+  color: white;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-holder {
+  text-align: left;
+  width: 50%;
+}
+
+/* Why section */
+.why-section {
+    background:#f9f9f9;
+}
+.why-holder > ul {
+    list-style-type: none;
+}
+
+.why-holder > ul > li {
+    font-size: 1.2em;
+}
+
+/* Comment section */
+.comments-section {
+    background: #EDF2F4;
+}
+
+.comment-card {
+    border-radius: 0px !important;
+    display: inline-block;
+    box-shadow: 1px 1px #999;
+    text-align: left;
+}
+
+.card-avatar {
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.card-title {
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Loading */
+.loading {
+    display: inline-block;
+    margin: 10px auto;
+}

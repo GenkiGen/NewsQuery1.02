@@ -1,0 +1,19 @@
+/* Universial */
+body {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    background: url('../images/gradient.jpg');
+}
+
+/* Main contact pgae */
+form {
+    text-align: left;
+}
+
+form > input, textarea {
+    border-radius: 0px !important;
+}
+
+form > input[type='submit'] {
+    width: 100%;
+}

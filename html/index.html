@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <title>NewsQuery</title>
+    <!--Google fonts CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!--Font Awesome CSS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <!--Animation CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <!--Header-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../html/index.html">
+            <img src="../images/news_icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="../html/about.html">About</a>
+                <a class="nav-item nav-link" href="../html/news.html">News</a>
+                <a class="nav-item nav-link" href="../html/query.html">Search</a>
+                <a class="nav-item nav-link" href="../html/contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Banner-->
+    <div class="jumbotron banner">
+        <div class="banner-holder">
+            <h1 style="font-size: 5rem">Welcome to NewsQuery</h1>
+            <p style="font-size: 2rem;">Where the truth matters</p>
+            <a href="../html/news.html" class="btn" style="font-size: 2.5rem;">Read</a>
+        </div>
+    </div>
+
+    <!--Center-->
+    <main class="why-section text-center py-5">
+        <div class="why-holder">
+            <h2 class="mb-5">&nbsp; &nbsp;Why we stands out from the rest</h2>
+            <ul>
+                <li class="my-4"><i class="far fa-clock"></i>&nbsp; Fast Querying Time</li>
+                <li class="my-4"><i class="far fa-star"></i>&nbsp; News from authoritative sources</li>
+                <li class="my-4"><i class="fas fa-user-tie"></i>&nbsp; Active community</li>
+            </ul>
+        </div>
+    </main>
+
+    <!--Comments-->
+    <!--This content will be loaded dynamically-->
+    <div class="comments-section p-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 text-center">
+              <h2 class="ml-4">What users have to say</h2>
+            </div>
+        </div>
+        <div class="comments row p-2">
+            <img src="../images//loading.gif" alt="loading" class="loading">
+        </div>
+    </div>
+    <!--Chat Window-->
+    <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: 'f2e97886-87d8-4417-b714-f7564efdecd7', f: true }); done = true; } }; })();</script>
+    <!--Bootstrap JS, Popper and JQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--My script-->
+    <script src="../javascript/UserCollector.js"></script>
+    <script src="../javascript/index.js"></script>
+</body>
+</html>
